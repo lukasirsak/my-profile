@@ -12,6 +12,7 @@ alias gi="git init"
 alias ga="git add"
 alias gs="git status"
 alias gc="git commit"
+alias gcm="git commit -m "
 alias gp="git push origin"
 
 # Directories
