@@ -26,3 +26,8 @@ alias .....="cd ../../../../"
 # Others
 alias y="yarn"
 
+# Bitnami Nginx Stack
+# Server start|stop|status|restart nginx|mysql|php-fpm
+function server() {
+    ( cd ~/stack && sudo ./ctlscript.sh $* )
+}
