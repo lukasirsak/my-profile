@@ -31,3 +31,8 @@ alias y="yarn"
 function server() {
     ( cd ~/stack && sudo ./ctlscript.sh $* )
 }
+
+# Homestead alias
+function homestead() {
+    ( cd ~/Homestead && vagrant $* )
+}
