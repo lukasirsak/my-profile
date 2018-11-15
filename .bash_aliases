@@ -36,3 +36,7 @@ function server() {
 function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
+
+# Sudo Aliases
+alias fucking="sudo"
+alias isaid="sudo"
