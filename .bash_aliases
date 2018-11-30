@@ -40,3 +40,6 @@ function homestead() {
 # Sudo Aliases
 alias fucking="sudo"
 alias isaid="sudo"
+
+# Laravel helper command
+export PATH="$PATH:$HOME/.composer/vendor/bin"
