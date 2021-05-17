@@ -43,3 +43,6 @@ alias isaid="sudo"
 
 # Laravel helper command
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Docker Alises
+alias sail='bash vendor/bin/sail'
