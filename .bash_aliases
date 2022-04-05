@@ -46,3 +46,21 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Docker Alises
 alias sail='bash vendor/bin/sail'
+
+# Valet Aliases
+alias php7.0=$(brew --prefix php@7.0)/bin/php
+alias php7.1=$(brew --prefix php@7.1)/bin/php
+alias php7.2=$(brew --prefix php@7.2)/bin/php
+alias php7.3=$(brew --prefix php@7.3)/bin/php
+alias php7.4=$(brew --prefix php@7.4)/bin/php
+alias php8.0=$(brew --prefix php@8.0)/bin/php
+alias php8.1=$(brew --prefix php@8.1)/bin/php
+
+# Valet Aliases
+alias php7.0 c=php7.0 $(which composer)
+#alias php7.1 c=php7.1 $(which composer)
+#alias php7.2 c=php7.2 $(which composer)
+#alias php7.3 c=php7.3 $(which composer)
+#alias php7.4 c=php7.4 $(which composer)
+#alias php8.0 c=php8.0 $(which composer)
+#alias php8.1 c=php8.1 $(which composer)
