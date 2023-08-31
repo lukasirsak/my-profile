@@ -15,6 +15,7 @@ alias gc="git commit"
 alias gcm="git commit -m"
 alias gpo="git push origin"
 alias gpom="git push origin master"
+alias gpoma"git push origin main"
 
 # Directories
 alias ll="ls -FGlAhp"
