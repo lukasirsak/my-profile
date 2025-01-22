@@ -56,6 +56,9 @@ alias php7.3=$(brew --prefix php@7.3)/bin/php
 alias php7.4=$(brew --prefix php@7.4)/bin/php
 alias php8.0=$(brew --prefix php@8.0)/bin/php
 alias php8.1=$(brew --prefix php@8.1)/bin/php
+alias php8.2=$(brew --prefix php@8.2)/bin/php
+alias php8.3=$(brew --prefix php@8.3)/bin/php
+alias php8.4=$(brew --prefix php@8.4)/bin/php
 
 # Valet Aliases
 #alias php7.0 c=php7.0 $(which composer)
